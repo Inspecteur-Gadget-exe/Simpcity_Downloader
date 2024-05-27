@@ -13,3 +13,6 @@
 - Le dossier "tiktok" permet de récupérer tous les liens tiktok présents sur la page et les stocke dans le fichier "sortie_saint2.txt"
 
 - Le téléchargement n'est pas encore fait
+
+
+Pour le moment, tout est manuel (donc on copie le code de la page à la main, et on lance manuellement les scripts)
