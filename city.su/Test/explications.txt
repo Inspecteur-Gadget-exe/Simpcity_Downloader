@@ -1,6 +1,0 @@
-1- Importer le code source de la page dans le fichier code_source.txt 
-2- Lancer le script recup_jpg4.py
-3- Les liens jpg4.su sont donc stockés dans le fichier sortie_jpg4.txt 
-
-4- Lancer le script download_jpg4.py
-5- Les images sont stockées dans le dossier images
