@@ -1,4 +1,5 @@
 import re
+import os
 
 def extraire_liens(fichier_entree, fichier_sortie):
     # Expression régulière pour trouver les liens commençant par "https://jpg4.su/" et exclure les guillemets
@@ -17,6 +18,13 @@ def extraire_liens(fichier_entree, fichier_sortie):
             fichier.write(lien + '\n')
 
 # Exemple d'utilisation
-fichier_entree = 'Test/code_source/code_source.txt'
-fichier_sortie = 'Test/saint2/sortie_saint2.txt'
-extraire_liens(fichier_entree, fichier_sortie)
+if __name__ == "__main__":
+    # Obtenir le chemin absolu du script en cours d'exécution
+    script_directory = os.path.dirname(os.path.abspath(__file__))
+
+    # Construire les chemins relatifs à partir du répertoire du script
+    fichier_entree = os.path.join(script_directory, '../code_source/code_source.txt')
+    fichier_sortie = os.path.join(script_directory, 'sortie_saint2.txt')
+
+    # Appeler la fonction avec les chemins relatifs
+    extraire_liens(fichier_entree, fichier_sortie)

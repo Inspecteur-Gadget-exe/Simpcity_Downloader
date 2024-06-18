@@ -1,0 +1,37 @@
+1_code_sources.txt
+
+Code source de la page 2 de sofia crnilovic sur simpcity
+Dans le code source on a le lien qui nous mène au site saint2 qui héberge la vidéo
+https://saint2.su/embed/IzQUdh728Kl
+
+
+
+2_code_source.txt
+
+Code source de la page qui s'affiche après avor entré l'url trouvée précédemment
+Dans le code source on a un nouveau lien vers l'hébergeur de la video
+https://saint2.su/d/djEyMDQ0Z2QwMDAwY2lqZXVtamM3N3U2NWNyZDI4ZWdfNjRhODhiNzUxODBjNC5tcDQ
+
+
+
+"Etape *"
+
+Pour sauter l'étape 3 (qui n'existe plus) on peut modifier le lien trouvé en page 2 : 
+https://saint2.su/d/djEyMDQ0Z2QwMDAwY2lqZXVtamM3N3U2NWNyZDI4ZWdfNjRhODhiNzUxODBjNC5tcDQ
+https://simp2.saint2.su/api/download.php?file=djEyMDQ0Z2QwMDAwY2lqZXVtamM3N3U2NWNyZDI4ZWdfNjRhODhiNzUxODBjNC5tcDQ=
+
+On voit que ce qui diffère est : 
+simp2.saint2.su/api/download.php?file=
+
+
+
+A faire :
+
+Extraire le lien trouvé en étape 2 et le placer dans le fichier "sortie_lien.txt"
+
+
+
+sortie_lien.py 
+
+On vient récupérer le lien trouvé en étape 2 dans le fichier "sortie_lien.txt", puis on le modifie comme prévu à "l'étape *"
+En sortie on obtient donc le lien final de téléchargement de la vidéo dans le fichier "sortie_lien_modifie.txt"
