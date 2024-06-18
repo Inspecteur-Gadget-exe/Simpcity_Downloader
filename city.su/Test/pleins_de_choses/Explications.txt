@@ -1,0 +1,18 @@
+Bouton Download video saint2 sur simpcity.su :
+
+<iframe class="saint-iframe" src="https://saint2.su/embed/IzQUdh728Kl" height="auto" width="auto" style="border:none;" loading="lazy" allow="fullscreen;"></iframe>
+
+
+On se rend sur la page du site associé au lien précédemment,
+on copie le code_source dans un nouveau fichier texte,
+on récupère le lien de la vidéo (je n'y arrive pas ici) :
+
+<a class="plyr__controls__item plyr__control" href="https://saint2.su/d/djEyMDQ0Z2QwMDAwY2lqZXVtamM3N3U2NWNyZDI4ZWdfNjRhODhiNzUxODBjNC5tcDQ=" target="_blank" data-plyr="download" aria-pressed="false"><svg aria-hidden="true" focusable="false"><use xlink:href="#plyr-download"></use></svg><span class="plyr__sr-only">Download</span></a>
+
+
+On modifie le lien pour télécharger directement la vidéo :
+
+https://saint2.su/d/djEyMDQ0Z2QwMDAwY2lqZXVtamM3N3U2NWNyZDI4ZWdfNjRhODhiNzUxODBjNC5tcDQ=
+https://simp2.saint2.su/api/download.php?file=djEyMDQ0Z2QwMDAwY2lqZXVtamM3N3U2NWNyZDI4ZWdfNjRhODhiNzUxODBjNC5tcDQ=
+
+simp2.saint2.su/api/download.php?file=
