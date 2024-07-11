@@ -6,8 +6,21 @@ Download photos hosted by jpg4.su and videos by saint2.su (for the moment... I'm
 ---------------------------------------------------------------------------------------
 
 ## Summary
+- [Installation](#Installation)
 - [Images (jpg4.su)](#JPG4_Folder)
 - [Videos (saint2.su)](#Saint2_Folder)
+
+---------------------------------------------------------------------------------------
+
+### Installation
+
+<h4>There's only one thing to do</h4>  
+
+```bash
+git clone https://github.com/Inspecteur-Gadget-exe/Simpcity_Downloader.git
+```
+
+Once downloaded, you don't need to change directories, just use the 2 scripts to be executed (specified below), and enter the URL from which you want to obtain the media.  
 
 ---------------------------------------------------------------------------------------
 
@@ -27,8 +40,6 @@ At the end of the script, delete the files "source_code.txt" and "output_jpg4.tx
 For each link in the file "output_jpg4.txt", navigate to the website and download the image associated with the link "https://simp6.host.church".  
 Store the downloaded images in the "images" directory.  
 
----------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------
     
 ### Saint2_Folder
