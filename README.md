@@ -1,24 +1,29 @@
 # Simpcity_Downloader
 
+## Description  
+Download photos hosted by jpg4.su and videos by saint2.su (for the moment... I'm working on it to download media from other hosts)
+
 ---------------------------------------------------------------------------------------
 
-<h2>"jpg4 folder"</h2>
+## Summary
+- [Images (jpg4.su)](#JPG4_Folder)
+- [Videos (saint2.su)](#Saint2_Folder)
 
-<h3>You only have to execute "get_and_download.py" in this folder</h3>  
+---------------------------------------------------------------------------------------
+
+### JPG4_Folder
+
+<h4>You only have to execute "get_and_download.py" in this folder</h4>  
 
 - **get_and_download.py**  
-Prompt the user to enter the URL in the console and then copy the page source code.  
+Prompt the user to enter the URL in the console and then copy the page source code.   
 The source code is saved in a file named "source_code.txt".  
-  
 Retrieve all links starting with "https://jpg4.su/img/", excluding the link present multiple times in the code: "https://jpg4.su/img/YnBxSZe".  
 Store these links in the file "output_jpg4.txt".  
-  
 Next, use the "subprocess" module to execute the following script.  
-  
 At the end of the script, delete the files "source_code.txt" and "output_jpg4.txt".  
 
 - **download.py**  
-  
 For each link in the file "output_jpg4.txt", navigate to the website and download the image associated with the link "https://simp6.host.church".  
 Store the downloaded images in the "images" directory.  
 
@@ -26,10 +31,9 @@ Store the downloaded images in the "images" directory.
 ---------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------
     
-<h2>"saint2 folder"</h2>  
+### Saint2_Folder
 
-<h3>You only have to execute "1_source_code_copy.py" in this folder</h3>  
-
+<h4>You only have to execute "1_source_code_copy.py" in this folder</h4>  
   
 - **1_source_code_copy.py**  
 Prompt the user to enter the URL in the console and then copy the page source code.  
