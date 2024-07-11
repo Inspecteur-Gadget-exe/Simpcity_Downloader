@@ -1,6 +1,10 @@
 # Simpcity_Downloader
 
-<h3>"jpg4 folder"</h3>
+---------------------------------------------------------------------------------------
+
+<h2>"jpg4 folder"</h2>
+
+<h3>You only have to execute "get_and_download.py" in this folder</h3>  
 
 - **get_and_download.py**  
 Prompt the user to enter the URL in the console and then copy the page source code.  
@@ -17,8 +21,15 @@ At the end of the script, delete the files "source_code.txt" and "output_jpg4.tx
   
 For each link in the file "output_jpg4.txt", navigate to the website and download the image associated with the link "https://simp6.host.church".  
 Store the downloaded images in the "images" directory.  
-  
-<h3>"saint2 folder"</h3>  
+
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+    
+<h2>"saint2 folder"</h2>  
+
+<h3>You only have to execute "1_source_code_copy.py" in this folder</h3>  
+
   
 - **1_source_code_copy.py**  
 Prompt the user to enter the URL in the console and then copy the page source code.  
@@ -40,3 +51,5 @@ For the moment, I've only worked with 2 video hosts
   
 - **4_download_modified_link.txt**  
 Download the videos listed in the file "3_modified_link.txt".
+  
+---------------------------------------------------------------------------------------
