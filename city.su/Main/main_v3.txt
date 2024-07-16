@@ -1,0 +1,9 @@
+Télécharge toutes les photos jpg4 de toutes les pages
+entre les deux URLs renseignées
+
+Ainsi que les vidéos saint2 de toutes les pages
+entre les deux URLs renseignées
+
+Apparition du téléchargement de cyberdrop : 
+Télécharge toutes les videos cyberdrop de toutes les pages
+entre les deux URLs renseignées
