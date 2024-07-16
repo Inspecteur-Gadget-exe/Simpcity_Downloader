@@ -26,7 +26,7 @@ Once downloaded, you don't need to change directories, just use the 2 scripts to
 ### Enjoy
 
 <h4>Just execute the codes, when you enter the URL(s), please delete "post-XXXXX".  
-The URL(s) must be like this : https://simpcity.su/threads/"topic".XXXX/page-XX</h4>  
+The URL(s) must be like this : https://simpcity.su/threads/"topic".XXXX/page-XX. When you enter the first link, you can delete "page-XX" if you start from the first page.</h4>  
 
 
 ---------------------------------------------------------------------------------------
