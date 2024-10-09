@@ -1,5 +1,10 @@
 # Simpcity_Downloader
 
+## Edit : 
+
+Script doesn't work anymore for pics because they use jpg5.su and you can't inspect the page in this version so... videos still working but I don't have the time to find a new solution sorry
+
+
 ## Description  
 Download photos hosted by jpg4.su and videos by saint2.su (for the moment... I'm working on it to download media from other hosts)
 
